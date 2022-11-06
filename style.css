@@ -1,0 +1,357 @@
+@media screen and (max-width: 767px){
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+        clip: rect(0 0 0 0);
+    }
+}
+
+/*Логотип*/
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    text-decoration: none;
+
+    color: #808080;
+}
+
+@media screen and (max-width: 1599px){
+    .logo{
+        font-size: 22px;
+        line-height: 1.18;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .logo{
+        font-size: 26px;
+        line-height: 1.19;
+    }
+}
+
+.logo-color{
+    color: #000000;
+}
+
+/*меню*/
+.list{
+    list-style: none;
+}
+
+@media screen and (min-width: 768px){
+    .main-menu-item{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    text-decoration: none;
+
+    color: #808080;
+    }
+}
+
+/*телефон і пошта*/
+@media screen and (min-width: 768px) and (max-width: 1599px){
+    .contact-item{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.17;
+
+        color: #808080;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .contact-item{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+
+        color: #808080;
+        text-decoration: none;
+    }
+}
+
+/*заголовок сайту*/
+.main-title{
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+@media screen and (max-width: 767px){
+    .main-title{
+        font-size: 38px;
+        line-height: 1.18;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px){
+    .main-title{
+        font-size: 64px;
+        line-height: 1.17;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .main-title{
+        font-size: 100px;
+        line-height: 1.17;
+    }
+}
+
+/*текст під заголовком*/
+.main-text{
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #808080;
+}
+
+@media screen and (max-width: 767px){
+    .main-text{
+        font-size: 13px;
+        line-height: 1.15;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px){
+    .main-text{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .main-text{
+        font-size: 16px;
+        line-height: 1.19;
+    }
+}
+
+/*кнопка в хедері*/
+.heder-btn{
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.01;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.border-btn:hover {
+    background-color: #000000;
+}
+
+@media screen and (max-width: 767px){
+    .heder-btn{
+        font-size: 12px;
+        line-height: 1.17;
+    }
+
+    .border-btn{
+        background-color: #808080;
+        width: 140px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .heder-btn{
+        font-size: 14px;
+        line-height: 1.14;
+    }
+
+    .border-btn{
+        background-color: #808080;
+        width: 155px;
+        height: 45px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+/*заголовок секцій*/
+.title-section{
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    .title-section{
+        font-size: 28px;
+        line-height: 1.18;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1599px){
+    .title-section{
+        font-size: 32px;
+        line-height: 1.19;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .title-section{
+        font-size: 36px;
+        line-height: 1.17;
+    }
+}
+
+/*зображення в секції 1*/
+.img-section{
+    display: flex;
+}
+
+/*фон для 2 і 4 секцій*/
+.section-bgcolor{
+    background-color: #f4f4f4;
+}
+
+/*підзаголовок 2 секція*/
+.subtitle-section-2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+/*текст в секції 2*/
+.text-section-2{
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #808080;
+}
+
+@media screen and (max-width: 1599px){
+    .text-section-2{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .text-section-2{
+        font-size: 16px;
+        line-height: 1.19;
+    }
+}
+
+/*контакти в секції Контакти*/
+.subtitle-contacts{
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+@media screen and (max-width: 767px){
+    .subtitle-contacts{
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .subtitle-contacts{
+        font-size: 16px;
+        line-height: 1.19;
+    }
+}
+
+/*текст в контактах у секції Контакти*/
+.text-contacts{
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #808080;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px){
+    .text-contacts{
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .text-contacts{
+        font-size: 16px;
+        line-height: 1.19;
+    }
+}
+
+/*Підвал (футер)*/
+footer{
+    background-color: #000000;
+}
+
+.footer-menu{
+    font-family: Roboto;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px){
+    .footer-menu{
+        font-size: 12px;
+        line-height: 1.17;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .footer-menu{
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}
+
+.text-footer {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .text-footer {
+        font-size: 12px;
+        line-height: 1.17;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .text-footer {
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}
